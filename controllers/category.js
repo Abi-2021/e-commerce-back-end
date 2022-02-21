@@ -95,7 +95,7 @@ const deleteCategory = asyncHandler(async (req, res) => {
             id: categoryId
         }
     });
-    res.status(200);
+    res.send('ok');
 })
 
 module.exports = {
